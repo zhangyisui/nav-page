@@ -5,7 +5,7 @@ export const siteConfig = {
   description: "一个简单的导航网站",
   mainNav: [],
   links: {
-    twitter: "https://blog.zhangyisui.top/",
+    blog: "https://blog.zhangyisui.top/",
     github: "https://github.com/zhangyisui/nav-page"
   }
 }

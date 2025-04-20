@@ -49,10 +49,10 @@ export function SiteHeader() {
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
+            <Link href={siteConfig.links.blog} target="_blank" rel="noreferrer">
               <Button className="rounded-full" variant="ghost" size="icon">
-                <Icons.blog className="h-5 w-5"/>
-                <span className="sr-only">Twitter</span>
+                <Icons.blog className="h-3 w-3"/>
+                <span className="sr-only">Blog</span>
               </Button>
             </Link>
             <ThemeToggle />
