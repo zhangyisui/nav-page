@@ -8,7 +8,7 @@ import { HoverEffect } from "@/components/ui/card-hover-effect"
 
 export function LinkContent() {
   return (
-    <div className="w-full pb-96 pt-4">
+    <div className="w-full pt-4">
       <div id="main" className="mx-auto w-full px-4 md:px-6">
         {NavData.map((category, index) => {
           return (
