@@ -20,7 +20,7 @@ export function SiteFooter() {
             <div className="px-4 md:w-auto text-right">
               <a
                 href="mailto:hechugetqiufrost@outlook.com"
-                className="text-Sky-600 hover:text-Sky-700 py-1 text-sm font-semibold hover:text-blue-600"
+                className="text-blue-600 py-1 text-sm font-semibold hover:text-blue-800"
               >
                 Contact Me
               </a>
