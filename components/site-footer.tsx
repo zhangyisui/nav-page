@@ -7,14 +7,22 @@ export function SiteFooter() {
           <div className="flex flex-wrap items-center justify-center md:justify-between">
             <div className="w-full px-4 md:w-4/12">
               <div className="mb-2 text-center md:mb-0 md:text-left">
-                <a
+                <div>
+                  <a
                   href="https://zhangyisui.top"
                   target="_blank"
-                  className="text-blueGray-500 py-1 text-center text-sm font-semibold md:text-left"
+                  className="text-blueGray-500 py-1 text-center text-sm font-semibold md:text-left mr-4"
                   rel="noreferrer"
-                >
+                  >
                   Copyright © {new Date().getFullYear()} ZhangYiSui
-                </a>
+                  </a>
+                  <a
+                  href="mailto:your-email@example.com"
+                  className="text-blueGray-500 py-1 text-center text-sm font-semibold md:text-left"
+                  >
+                  Contact Me
+                  </a>
+                </div>
               </div>
             </div>
           </div>

@@ -51,7 +51,7 @@ export function SiteHeader() {
             </Link>
             <Link href={siteConfig.links.blog} target="_blank" rel="noreferrer">
               <Button className="rounded-full" variant="ghost" size="icon">
-                <Icons.blog className="h-3 w-3"/>
+                <Icons.blog className="h-5 w-5"/>
                 <span className="sr-only">Blog</span>
               </Button>
             </Link>
