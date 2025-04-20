@@ -16,12 +16,14 @@ export function SiteFooter() {
                   >
                   Copyright © {new Date().getFullYear()} ZhangYiSui
                   </a>
-                  <a
-                  href="mailto:your-email@example.com"
-                  className="text-blueGray-500 py-1 text-center text-sm font-semibold md:text-left"
-                  >
-                  Contact Me
-                  </a>
+                  <div className="w-full px-4 md:w-4/12 text-center md:text-right">
+                    <a
+                    href="mailto:hechugetqiufrost@outlook.com"
+                    className="text-blueGray-500 py-1 text-sm font-semibold"
+                    >
+                    Contact Me
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
