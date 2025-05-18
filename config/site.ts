@@ -61,7 +61,7 @@ export const NavData: NavData[] = [
         link: "https://processon.com/"
       },
       {
-        icon: "https://www.autohotkey.com/favicon.ico",
+        icon: "/icons/autohotkey.ico",
         title: "AutoHotKey",
         desc: "强大且易用的windows脚本软件",
         link: "https://www.autohotkey.com/"
@@ -269,7 +269,7 @@ export const NavData: NavData[] = [
       {
         title: "HYPE4",
         desc: "透明玻璃态生成器",
-        icon: "https://hype4.academy/_next/static/media/logorwd@2x.b40bc92c.png",
+        icon: "https://hype4.academy/favicon/ms-icon-144x144.png",
         link: "https://hype4.academy/tools/glassmorphism-generator"
       },
       {
@@ -334,7 +334,7 @@ export const NavData: NavData[] = [
       {
         title: "NPM",
         desc: "NPM是世界上最大的包管理器",
-        icon: "https://static.npmjs.com/58a19602036db1daee0d7863c94673a4.png",
+        icon: "https://static-production.npmjs.com/58a19602036db1daee0d7863c94673a4.png",
         link: "https://www.npmjs.com"
       },
       {
