@@ -31,6 +31,12 @@ export const NavData: NavData[] = [
     title: "常用工具",
     items: [
       {
+        icon: "logo.ico",
+        title: "一阁",
+        desc: "我的博客",
+        link: "https://blog.zhangyisui.top"
+      },
+      {
         icon: "https://caniuse.com/img/favicon-128.png",
         title: "Can I use",
         desc: "前端 API 兼容性查询",
@@ -55,124 +61,62 @@ export const NavData: NavData[] = [
         link: "https://processon.com/"
       },
       {
-        icon: "/icons/json-cn.ico",
-        title: "Json 中文网",
-        desc: "JSON 在线解析及格式化验证",
-        link: "https://www.json.cn"
+        icon: "https://www.autohotkey.com/favicon.ico",
+        title: "AutoHotKey",
+        desc: "强大且易用的windows脚本软件",
+        link: "https://www.autohotkey.com/"
       },
       {
-        icon: "https://www.terminalgif.com/favicon.ico",
-        title: "Terminal Gif Maker",
-        desc: "在线生成 Terminal GIF",
-        link: "https://www.terminalgif.com"
+        icon: "https://pin.gl/favicon.ico",
+        title: "pin.gl",
+        desc: "快速的在线屏幕共享工具",
+        link: "https://pin.gl/"
       },
       {
-        icon: "https://astexplorer.net/favicon.png",
-        title: "AST Explorer",
-        desc: "一个 Web 工具，用于探索由各种解析器生成的 AST 语法树",
-        link: "https://astexplorer.net/"
+        title: "anyvoice",
+        desc: "AI声音克隆,有免费额度",
+        icon: "https://anyvoice.net/favicon.ico",
+        link: "https://anyvoice.net/"
       },
       {
         icon: "https://transform.tools/static/favicon.png",
         title: "transform",
         desc: "各类数据格式与对象转换",
         link: "https://transform.tools"
-      },
-      {
-        icon: "/icons/hoppscotch.png",
-        title: "Hoppscotch",
-        desc: "开源 API 开发生态系统",
-        link: "https://hoppscotch.io/"
-      },
-      {
-        icon: "/icons/apifox.png",
-        title: "Apifox",
-        desc: "API 文档、API 调试、API Mock、API 自动化测试",
-        link: "https://www.apifox.cn/"
       }
     ]
   },
-
   {
-    title: "React",
+    title: "实用项目",
     items: [
       {
-        icon: "https://zh-hans.reactjs.org/favicon.ico",
-        title: "React",
-        desc: "用于构建用户界面的 JavaScript 库",
-        link: "https://zh-hans.reactjs.org"
+        title: "sharpkeys",
+        desc: "快速改变键盘映射",
+        icon: "/icons/github.svg",
+        link: "https://github.com/randyrants/sharpkeys"
       },
       {
-        icon: "https://reactrouter.com/favicon-light.png",
-        title: "React Router",
-        desc: "React 的声明式路由",
-        link: "https://reactrouter.com"
+        title: "ContextMenuManager",
+        desc: "纯粹的Windows右键菜单管理程序",
+        icon: "/icons/github.svg",
+        link: "https://github.com/BluePointLilac/ContextMenuManager"
+      }
+    ]
+  },
+  {
+    title: "好玩的",
+    items: [
+      {
+        title: "eva-title",
+        desc: "福音戰士標題生成器",
+        icon: "/icons/github.svg",
+        link: "https://lab.magiconch.com/eva-title/"
       },
       {
-        icon: "https://nextjs.org/static/favicon/safari-pinned-tab.svg",
-        title: "Next.js",
-        desc: "一个用于 Web 的 React 框架",
-        link: "https://nextjs.org"
-      },
-      {
-        icon: "https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg",
-        title: "UmiJS",
-        desc: "插件化的企业级前端应用框架",
-        link: "https://umijs.org"
-      },
-      {
-        icon: "https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png",
-        title: "Ant Design",
-        desc: "一套企业级 UI 设计语言和 React 组件库",
-        link: "https://ant.design"
-      },
-      {
-        icon: "https://gw.alipayobjects.com/zos/bmw-prod/69a27fcc-ce52-4f27-83f1-c44541e9b65d.svg",
-        title: "Ant Design Mobile",
-        desc: "构建移动 WEB 应用程序的 React 组件库",
-        link: "https://mobile.ant.design"
-      },
-      {
-        icon: "https://docs.pmnd.rs/apple-touch-icon.png",
-        title: "Zustand",
-        desc: "一个小型、快速、可扩展的 React 状态管理解决方案",
-        link: "https://docs.pmnd.rs/zustand/getting-started/introduction"
-      },
-      {
-        icon: "https://valtio.pmnd.rs/favicon.ico",
-        title: "Valtio",
-        desc: "makes proxy-state simple for React and Vanilla",
-        link: "https://valtio.pmnd.rs"
-      },
-      {
-        icon: "https://jotai.org/favicon.svg",
-        title: "Jotai",
-        desc: "primitive and flexible state management for React",
-        link: "https://jotai.org"
-      },
-      {
-        icon: "https://cn.redux.js.org/img/redux.svg",
-        title: "Redux",
-        desc: "JavaScript 应用的状态容器，提供可预测的状态管理",
-        link: "https://cn.redux.js.org"
-      },
-      {
-        icon: "https://recoiljs.org/zh-hans/img/favicon.png",
-        title: "recoil",
-        desc: "Recoil is an experimental state management framework for React.",
-        link: "https://recoiljs.org/zh-hans/"
-      },
-      {
-        icon: "https://zh.mobx.js.org/assets/mobx.png",
-        title: "MobX",
-        desc: "一个小型、快速、可扩展的 React 状态管理解决方案",
-        link: "https://zh.mobx.js.org"
-      },
-      {
-        icon: "https://ahooks.js.org/simple-logo.svg",
-        title: "ahooks",
-        desc: "一套高质量可靠的 React Hooks 库",
-        link: "https://ahooks.js.org/zh-CN"
+        title: "SNOOKER",
+        desc: "在线斯诺克",
+        icon: "/icons/github.svg",
+        link: "http://www.heyzxz.me/pcol/"
       }
     ]
   },
@@ -254,55 +198,8 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "JavaScript",
-    items: [
-      {
-        icon: "https://svelte.dev/svelte-logo-horizontal.svg",
-        title: "Svelte",
-        desc: "将声明性组件转换为精准高效更新 DOM 的 JavaScript 代码",
-        link: "https://svelte.dev"
-      },
-      {
-        icon: "/icons/jquery.svg",
-        title: "jQuery API 中文文档",
-        desc: "一个兼容多浏览器的 JavaScript 框架",
-        link: "https://jquery.cuishifeng.cn"
-      },
-      {
-        title: "ECharts",
-        desc: "一个基于 JavaScript 的开源可视化图表库",
-        icon: "https://echarts.apache.org/zh/images/favicon.png",
-        link: "https://echarts.apache.org/"
-      },
-      {
-        title: "AntV",
-        desc: "蚂蚁集团全新一代数据可视化解决方案,让数据栩栩如生",
-        icon: "/icons/antv.png",
-        link: "https://antv.vision/"
-      }
-    ]
-  },
-  {
     title: "CSS",
     items: [
-      {
-        icon: "https://postcss.org/assets/logo-3e39b0aa.svg",
-        title: "PostCSS",
-        desc: "一个用 JavaScript 转换 CSS 的工具",
-        link: "https://postcss.org"
-      },
-      {
-        icon: "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
-        title: "Sass",
-        desc: "一个成熟，稳定，功能强大的专业级 CSS 扩展语言",
-        link: "https://sass-lang.com"
-      },
-      {
-        icon: "https://www.tailwindcss.cn/apple-touch-icon.png",
-        title: "TailwindCSS 中文网",
-        desc: "一个功能类优先的 CSS 框架",
-        link: "https://www.tailwindcss.cn"
-      },
       {
         title: "WindiCSS",
         desc: "Windi CSS 是下一代工具优先的 CSS 框架",
@@ -316,14 +213,8 @@ export const NavData: NavData[] = [
         link: "https://github.com/tw-in-js/twind"
       },
       {
-        title: "UnoCSS",
-        desc: "即时按需原子 CSS 引擎",
-        icon: "https://uno.antfu.me//favicon.svg",
-        link: "https://uno.antfu.me/"
-      },
-      {
         title: "Bootstrap",
-        desc: "Bootstrap 是全球最受欢迎的前端开源工具库，它支持 Sass 变量和 mixin、响应式栅格系统、自带大量组件和众多强大的 JavaScript 插件。基于 Bootstrap 提供的强大功能，能够让你快速设计并定制你的网站",
+        desc: "Bootstrap 是全球最受欢迎的前端开源工具库。",
         icon: "https://img.kuizuo.cn/20210907055816.png",
         link: "https://v5.bootcss.com/"
       },
@@ -388,12 +279,6 @@ export const NavData: NavData[] = [
         link: "https://omatsuri.app"
       },
       {
-        title: "smooth shadow",
-        desc: "快速轻松地实现基于 CSS 阴影的绝佳工具。您只需要指定一些阴影设置，代码就在您的路上。",
-        icon: "https://shadows.brumm.af/favicon.svg",
-        link: "https://shadows.brumm.af/"
-      },
-      {
         title: "FANCY-BORDER-RADIUS",
         desc: "花式边界半径,有助于创建 CSS 花式边框。",
         icon: "https://9elements.github.io/fancy-border-radius/favicon-32x32.png",
@@ -411,12 +296,6 @@ export const NavData: NavData[] = [
     title: "Node",
     items: [
       {
-        icon: "https://deno.com/logo.svg",
-        title: "deno",
-        desc: "Deno is the open-source JavaScript runtime for the modern web.",
-        link: "https://deno.com/"
-      },
-      {
         icon: "https://nodejs.org/static/images/favicons/favicon.png",
         title: "Node.js",
         desc: "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境",
@@ -433,12 +312,6 @@ export const NavData: NavData[] = [
         title: "Koa",
         desc: "基于 Node.js 平台的下一代 web 开发框架",
         link: "https://koajs.com"
-      },
-      {
-        icon: "https://www.eggjs.org/favicon.png",
-        title: "Egg",
-        desc: "为企业级框架和应用而生",
-        link: "https://www.eggjs.org/zh-CN"
       },
       {
         icon: "https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg",
@@ -529,13 +402,7 @@ export const NavData: NavData[] = [
     title: "前端文档",
     items: [
       {
-        icon: "https://developer.mozilla.org/apple-touch-icon.6803c6f0.png",
-        title: "MDN | Web 开发者指南",
-        desc: "Mozilla 的开发者平台，提供了大量关于 HTML、CSS 和 JavaScript 的详细文档以及广泛的 Web API 参考资料",
-        link: "https://developer.mozilla.org/zh-CN"
-      },
-      {
-        icon: "https://static.runoob.com/images/favicon.ico",
+        icon: "https://www.runoob.com/favicon.ico",
         title: "菜鸟教程",
         desc: "学的不仅是技术，更是梦想！",
         link: "https://www.runoob.com"
@@ -561,41 +428,6 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "UI设计",
-    items: [
-      {
-        title: "Mastergo",
-        desc: "面向团队的专业 UI/UX 设计工具，多人同时编辑、随时在线评审、设计一键交付，让想法更快实现",
-        icon: "https://mastergo.com/favicon.ico",
-        link: "https://mastergo.com/"
-      },
-      {
-        title: "即时设计",
-        desc: "可云端编辑的专业级 UI 设计工具，为中国设计师量身打造，Windows 也能用的「协作版 Sketch」",
-        icon: "https://img.js.design/assets/webImg/favicon.ico",
-        link: "https://js.design/"
-      },
-      {
-        title: "Figma",
-        desc: "Figma 是为 UI 设计而生的设计工具，除了有和 Sketch 一样基本的操作和功能，还有许多专为 UI 设计而生的强大功能。",
-        icon: "/icons/figma.png",
-        link: "https://www.figma.com/"
-      },
-      {
-        title: "Pixso",
-        desc: "一站式完成原型、设计、交互与交付，为数字化团队协作提效",
-        icon: "https://cms.pixso.cn/images/logo.svg",
-        link: "https://pixso.cn/"
-      },
-      {
-        title: "AIDesign",
-        desc: "10秒创建您的LOGO！",
-        icon: "https://ailogo.qq.com//favicon.ico?v=1.1",
-        link: "https://ailogo.qq.com/"
-      }
-    ]
-  },
-  {
     title: "字体图标",
     items: [
       {
@@ -603,12 +435,6 @@ export const NavData: NavData[] = [
         desc: "数千个图标，一个统一的框架",
         icon: "https://icon-sets.iconify.design/favicon.ico",
         link: "https://icon-sets.iconify.design/"
-      },
-      {
-        title: "icones",
-        desc: "Icon Explorer with Instant searching, powered by Iconify",
-        icon: "https://icones.js.org/favicon.svg",
-        link: "https://icones.js.org/"
       },
       {
         title: "iconfont",
@@ -631,7 +457,7 @@ export const NavData: NavData[] = [
       {
         title: "igoutu",
         desc: "图标、插图、照片、音乐和设计工具",
-        icon: "/icons/igoutu.png",
+        icon: "https://maxst.icons8.com/vue-static/landings/primary-landings/favs/icons8_fav_32×32.png",
         link: "https://igoutu.cn/"
       },
       {
@@ -639,12 +465,6 @@ export const NavData: NavData[] = [
         desc: "Emoji表情大全",
         icon: "https://www.emojiall.com/apple-touch-icon.png",
         link: "https://www.emojiall.com/zh-hans"
-      },
-      {
-        title: "渐变色网站",
-        desc: "数百万个自动生成的渐变的网站",
-        icon: "https://gradihunt.com/favicon.ico",
-        link: "https://gradihunt.com/"
       },
       {
         title: "谷歌字体",
@@ -672,19 +492,19 @@ export const NavData: NavData[] = [
       {
         title: "Tauri",
         desc: "Tauri是一个框架，用于为所有主要桌面平台构建小巧、快速的二进制文件",
-        icon: "https://tauri.app/meta/favicon-96x96.png",
+        icon: "https://tauri.app/favicon.svg",
         link: "https://tauri.app/"
       },
       {
         title: "Flutter",
         desc: "Flutter 是 Google 开源的应用开发框架，仅通过一套代码库，就能构建精美的、原生平台编译的多平台应用",
-        icon: "https://flutter.cn/assets/images/cn/flutter-icon.png",
+        icon: "https://docs.flutter.cn/assets/images/cn/flutter-icon.png",
         link: "https://flutter.cn/"
       },
       {
         title: "Uni-app",
         desc: "uni-app 是一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/QQ/快手/钉钉/淘宝）、快应用等多个平台",
-        icon: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-a90b5f95-90ba-4d30-a6a7-cd4d057327db/d23e842c-58fc-4574-998d-17fdc7811cc3.png",
+        icon: "https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/icon.png",
         link: "https://uniapp.dcloud.io/"
       },
       {
@@ -692,88 +512,6 @@ export const NavData: NavData[] = [
         desc: "Taro 是一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发 微信 / 京东 / 百度 / 支付宝 / 字节跳动 / QQ / 飞书 小程序 / H5 / RN 等应用",
         icon: "/icons/taro.png",
         link: "https://taro.jd.com"
-      }
-    ]
-  },
-  {
-    title: "站点生成",
-    items: [
-      {
-        title: "VitePress",
-        desc: "Vue 驱动并使用Vite构建的静态网站生成器",
-        icon: "https://vuepress.vuejs.org/hero.png",
-        link: "https://vitepress.vuejs.org"
-      },
-      {
-        title: "VuePress",
-        desc: "Vue 驱动的静态网站生成器",
-        icon: "https://vuepress.vuejs.org/hero.png",
-        link: "https://vuepress.vuejs.org"
-      },
-      {
-        title: "Docusaurus",
-        desc: "快速构建以内容为核心的最佳网站",
-        icon: "/icons/docusaurus.svg",
-        link: "https://docusaurus.io"
-      },
-      {
-        title: "Hexo",
-        desc: "快速、简洁且高效的博客框架",
-        icon: "https://hexo.io/favicon.ico",
-        link: "https://hexo.io"
-      },
-      {
-        title: "GitBook",
-        desc: "GitBook帮助您为用户发布漂亮的文档，并集中您的团队的知识进行高级协作",
-        icon: "https://assets-global.website-files.com/600ead1452cf056d0e52dbed/6246d2036225eac4d74cff27_Favicon_Blue.png",
-        link: "https://www.gitbook.com/"
-      },
-      {
-        title: "Docsify",
-        desc: "docsify 可以快速帮你生成文档网站",
-        icon: "https://docsify.js.org/_media/icon.svg",
-        link: "https://docsify.js.org"
-      },
-      {
-        title: "WordPress",
-        desc: "WordPress是一款能让您建立出色网站、博客或应用程序的开源软件",
-        icon: "https://s.w.org/images/wmark.png",
-        link: "https://cn.wordpress.org/"
-      }
-    ]
-  },
-  {
-    title: "代码托管",
-    items: [
-      {
-        title: "Github",
-        icon: "/icons/github.ico",
-        desc: "一个面向开源及私有软件项目的托管平台",
-        link: "https://github.com"
-      },
-      {
-        title: "Gitee",
-        desc: "Gitee 是中国领先的基于 Git 的代码托管平台，类似于全球知名的 GitHub",
-        icon: "/icons/gitee.ico",
-        link: "https://gitee.com/"
-      },
-      {
-        title: "Gitlab",
-        desc: "更快地交付安全代码，部署到任何云，并推动业务成果",
-        icon: "https://gitlab.com/uploads/-/system/group/avatar/6543/logo-extra-whitespace.png?width=64",
-        link: "https://gitlab.com/"
-      },
-      {
-        title: "Gitea",
-        desc: "Gitea 是一个开源社区驱动的轻量级代码托管解决方案，后端采用 Go 编写，采用 MIT 许可证.",
-        icon: "https://gitea.io/images/favicon.png",
-        link: "https://gitea.io/"
-      },
-      {
-        title: "Coding",
-        desc: "提供一站式研发管理平台及云原生开发工具，让软件研发如同工业生产般简单高效，助力企业提升研发管理效能",
-        icon: "/icons/coding.png",
-        link: "https://coding.net/"
       }
     ]
   },
@@ -815,47 +553,6 @@ export const NavData: NavData[] = [
         desc: "Supabase 是一个开源的后端即服务（BaaS）平台，它可以帮助开发者快速构建应用程序，无需编写后端代码。",
         icon: "/icons/supabase.png",
         link: "https://supabase.com/"
-      }
-    ]
-  },
-  {
-    title: "社区",
-    items: [
-      {
-        icon: "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
-        title: "Stack Overflow",
-        desc: "全球最大的技术问答网站",
-        link: "https://stackoverflow.com"
-      },
-      {
-        title: "稀土掘金",
-        icon: "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/apple-touch-icon.png",
-        desc: "面向全球中文开发者的技术内容分享与交流平台",
-        link: "https://juejin.cn"
-      },
-      {
-        title: "V2EX",
-        icon: "https://www.v2ex.com/static/icon-192.png",
-        desc: "一个关于分享和探索的地方",
-        link: "https://www.v2ex.com"
-      },
-      {
-        title: "SegmentFault 思否",
-        icon: "https://static.segmentfault.com/main_site_next/0dc4bace/touch-icon.png",
-        desc: "技术问答开发者社区",
-        link: "https://segmentfault.com"
-      },
-      {
-        title: "博客园",
-        icon: "/icons/cnblogs.svg",
-        desc: "博客园是一个面向开发者的知识分享社区",
-        link: "https://www.cnblogs.com"
-      },
-      {
-        title: "知乎",
-        icon: "https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png",
-        desc: "中文互联网高质量的问答社区和创作者聚集的原创内容平台",
-        link: "https://zhihu.com"
       }
     ]
   }
