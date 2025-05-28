@@ -477,6 +477,12 @@ export const NavData: NavData[] = [
         desc: "一个动态生成的可自定义 SVG 打字效果",
         icon: "/icons/typing-svg.png",
         link: "https://readme-typing-svg.herokuapp.com/demo/"
+      },
+      {
+        title: "free-icons-for-commercial-use",
+        desc: "一篇文章，里面提到了18个包含可商用图标的网站，来自用户推荐",
+        icon: "https://dt2sdf0db8zob.cloudfront.net/wp-content/themes/websiteplanet/img/favicons/apple-icon-57x57.png",
+        link: "https://www.websiteplanet.com/blog/free-icons-for-commercial-use/"
       }
     ]
   },
